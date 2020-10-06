@@ -1,0 +1,6 @@
+const iceCream = (arr, n)=>{
+    
+
+
+
+}

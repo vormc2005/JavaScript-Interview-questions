@@ -36,6 +36,7 @@
 // }
 
 function anagrams(stringA, stringB){
+  console.log(cleanString(stringA)===cleanString(stringB))
   return  cleanString(stringA)===cleanString(stringB)
 }
 
@@ -45,6 +46,6 @@ function cleanString(str){
    return array
 }
 
-cleanString("Hello World")
+anagrams("Hello world", "Hello worlds")
 
 module.exports = anagrams;
